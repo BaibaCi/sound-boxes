@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3366cc;
+  font-family: 'Pacifico', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.btn {
+  background-color: #ffff33;
+  box-shadow: 5px 8px 9px rgba(24, 29, 37, 0.434);
+  border-radius: 10px;
+  border: none;
+  color: #333333;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
